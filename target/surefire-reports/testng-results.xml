@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-08T10:25:26Z" name="Surefire suite" finished-at="2022-11-08T10:25:37Z" duration-ms="10590">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runcOOkamber.gururun@7fe8ea47]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-11-08T10:25:26Z" name="Surefire test" finished-at="2022-11-08T10:25:37Z" duration-ms="10590">
+      <class name="runcOOkamber.gururun">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runcOOkamber.gururun@7fe8ea47]" started-at="2022-11-08T15:55:26Z" name="setUpClass" finished-at="2022-11-08T15:55:26Z" duration-ms="294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@46d8f407]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runcOOkamber.gururun@7fe8ea47]" started-at="2022-11-08T15:55:26Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-08T15:55:36Z" duration-ms="10273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["check with invalid"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test Demo Guru page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runcOOkamber.gururun@7fe8ea47]" started-at="2022-11-08T15:55:36Z" name="tearDownClass" finished-at="2022-11-08T15:55:36Z" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runcOOkamber.gururun -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
